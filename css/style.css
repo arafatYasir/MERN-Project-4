@@ -88,3 +88,121 @@ nav .logo {
 nav .buttons {
     justify-self: end;
 }
+
+/* ----Banner Section---- */
+#banner {
+    background: #394792;
+    padding: 150px 0 130px 0;
+}
+
+.banner-img {
+    position: relative;
+}
+
+.banner-wrapper .banner-img img:first-child {
+    position: absolute;
+    width: 610px;
+    left: -80px;
+    top: 210px;
+}
+
+.banner-img .arrow {
+    position: absolute;
+    left: -60px;
+    top: 10px;
+}
+
+.banner-wrapper {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.banner-info .title {
+    max-width: 670px;
+    color: #fff;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 76.8px;
+    letter-spacing: -3.2px;
+    position: relative;
+    font-family: "Space Grotesk", serif;
+}
+
+.banner-info .title img {
+    position: absolute;
+    bottom: -10px;
+    right: 5px;
+}
+
+.banner-info .description {
+    color: #fff;
+    max-width: 554px;
+    margin: 32px 0 40px 0;
+    font-size: 18px;
+    line-height: 30.6px;
+    letter-spacing: -0.81px;
+    font-family: "Inter", sans-serif;
+}
+
+.banner-info .buttons {
+    display: flex;
+    gap: 24px;
+    font-family: "Inter", sans-serif;
+}
+
+.banner-info .buttons a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 18px 32px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    transition: 0.4s;
+}
+
+.banner-info .buttons a:hover {
+    background: #fff;
+    border-color: transparent;
+    color: #394792;
+}
+
+#banner .statistics {
+    display: grid;
+    grid-template-columns: repeat(3, 90px);
+    gap: 80px;
+    margin-top: 80px;
+}
+
+#banner .statistics .item {
+    position: relative;
+}
+
+#banner .statistics .item::after {
+    width: 1px;
+    height: 62.5px;
+    background: rgba(255, 255, 255, 0.16);
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    transform: translateY(-50%);
+}
+
+#banner .statistics .item:last-child::after {
+    display: none;
+}
+
+#banner .statistics h3 {
+    font-family: "Space Grotesk", sans-serif;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+#banner .statistics p {
+    max-width: 86px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 8px;
+}
