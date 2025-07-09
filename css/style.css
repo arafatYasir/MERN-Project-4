@@ -492,3 +492,216 @@ nav .buttons {
     line-height: 30.6px;
     letter-spacing: -0.81px;
 }
+
+/* ----Pricing Section---- */
+#pricing {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#pricing .title {
+    color: #232323;
+    font-family: "Space Grotesk", serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 67.2px;
+    letter-spacing: -2.4px;
+    text-align: center;
+}
+
+#pricing .description {
+    color: #232323;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    letter-spacing: -0.81px;
+    opacity: 0.8;
+    text-align: center;
+    margin-top: 32px;
+}
+
+#pricing .wrapper {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(3, 379px);
+    column-gap: 32px;
+}
+
+#pricing .card {
+    width: 379px;
+    border-radius: 32px;
+    border: 1px solid rgba(35, 35, 35, 0.16);
+    background: #FFF;
+    padding: 38px 32px 32px 32px;
+    transition: all 0.4s;
+}
+
+#pricing .card:hover {
+    background: #325B97;
+}
+
+#pricing .card .card-title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-radius: 30px;
+    border: 1px solid rgba(35, 35, 35, 0.16);
+    padding: 6px 24px 6px 20px;
+}
+
+#pricing .card:hover .card-title {
+    border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+#pricing .card:hover .card-title i {
+    color: #fff;
+}
+
+#pricing .card .card-title i {
+    font-size: 20px;
+}
+
+#pricing .card .card-title span {
+    color: #232323;
+    text-align: center;
+    font-family: "Space Grotesk", serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 44.8px;
+    letter-spacing: -1.6px;
+}
+
+#pricing .card:hover .card-title span {
+    color: #fff;
+}
+
+#pricing .card .price {
+    margin-top: 34px;
+}
+
+#pricing .card .price strong {
+    color: #232323;
+    font-family: "Space Grotesk", serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 67.2px;
+    letter-spacing: -2.4px;
+}
+
+#pricing .card:hover .price strong {
+    color: #fff;
+}
+
+#pricing .card .price span {
+    color: #757575;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33.6px;
+    letter-spacing: -1.2px;
+}
+
+#pricing .card:hover .price span {
+    color: #fff;
+}
+
+#pricing .card>span {
+    color: #757575;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    letter-spacing: -0.9px;
+    display: inline-block;
+    margin-top: 16px;
+}
+
+#pricing .card:hover>span {
+    color: #fff;
+}
+
+#pricing .card ul {
+    margin-top: 40px;
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    row-gap: 16px;
+}
+
+#pricing .card ul li {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    align-items: center;
+    column-gap: 16px;
+}
+
+#pricing .card ul li span {
+    color: #232323;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    letter-spacing: -0.9px;
+}
+
+#pricing .card:hover ul li span {
+    color: #fff;
+}
+
+#pricing .card .tick {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #155CB5;
+    border-radius: 50%;
+}
+
+#pricing .card:hover .tick {
+    background: #fff;
+}
+
+#pricing .card .tick i {
+    color: #fff;
+    font-size: 12px;
+}
+
+#pricing .card:hover .tick i {
+    color: #155CB5;
+    font-size: 14px;
+}
+
+#pricing .card ul .cross .tick {
+    background: #8E8E8E;
+}
+
+#pricing .card:hover ul .cross .tick {
+    background: #fff;
+}
+
+#pricing .card ul .cross span {
+    color: #8E8E8E;
+}
+
+#pricing .card button {
+    border: 0;
+    border-radius: 100px;
+    background: #325B97;
+    width: 100%;
+    padding: 16px 0 16px 0;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    letter-spacing: -0.9px;
+    margin-top: 48px;
+}
+
+#pricing .card:hover button {
+    background: #fff;
+    color: #325B97;
+}
