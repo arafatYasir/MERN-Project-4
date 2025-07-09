@@ -1,0 +1,90 @@
+/* font-family: "Space Grotesk", serif; */
+/* font-family: "Inter", sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ----Navbar Section---- */
+nav {
+    background: #394792;
+    font-size: 18px;
+    padding-top: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.nav-options {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+}
+
+nav ul {
+    display: contents;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a::after {
+    width: 0%;
+    height: 1px;
+    background: #fff;
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    transition: 0.4s;
+}
+
+nav ul li a:hover::after {
+    width: 97.5%;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav .buttons a {
+    font-weight: 500;
+    padding: 16px 40px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    transition: all 0.4s;
+}
+
+nav .buttons a:hover {
+    border-color: rgba(255, 255, 255, 0.40);
+}
+
+.nav-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+nav .logo {
+    justify-self: center;
+}
+
+nav .buttons {
+    justify-self: end;
+}
